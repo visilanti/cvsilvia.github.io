@@ -345,7 +345,13 @@ th, td {
 /* CSS untuk tampilan desktop */
 @media (max-width: 720px) {
     .home{
-        /* width: 630px; */
+        width: fit-content;
+        height: 100vh;
+        background: linear-gradient(-90deg, #031549 66%, #fff 10%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10%;    
     }
     .home-image {
         width: 220px; 
@@ -357,7 +363,7 @@ th, td {
         border-radius: 50%;
     }
     .home-content{
-        margin:10px;
+        margin:60px;
     }
     .home-content h1 {
         font-size: 30px;
@@ -371,7 +377,7 @@ th, td {
         margin-top: 20px;
     }
     table {
-        /* width: 630px; */
+        width: 650px;
     }
     .main-content{
         margin: 70px 0 20px 50px;
