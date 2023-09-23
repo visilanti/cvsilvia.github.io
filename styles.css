@@ -340,3 +340,47 @@ th, td {
     opacity: 1;
 }
 /*end contact sesion info */
+
+/* CSS untuk tampilan desktop */
+@media (max-width: 991px) {
+    .home{
+        width: 630px;
+    }
+    .home-image {
+        width: 220px; 
+        height: 220px;
+    }
+    .home-image img {
+        position: relative;
+        max-width: 200px;
+        border-radius: 50%;
+    }
+    .home-content h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .home-content h3 {
+        font-size: 40px;
+    }
+    .home-content p {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    table {
+        width: fit-content;
+    }
+    .main-content{
+        margin: 10px 0 10px 10px;
+    }
+    .sidebar {
+        background-color: #f0f0f0;
+    }
+    .wrap2 {
+        margin-left: 10px;
+    }
+    .contact {
+        background-color: #031549;
+        color: white;
+        width: 100%;
+    }
+}
