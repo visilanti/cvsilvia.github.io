@@ -288,6 +288,7 @@ th, td {
 .contact{
     background-color: #031549;
     color: white;
+    width: 100%;
 }
 .contact td{
     text-align: center;
@@ -374,6 +375,7 @@ th, td {
     }
     .sidebar {
         background-color: #f0f0f0;
+        width: 40%;
     }
     .wrap2 {
         margin-left: 10px;
