@@ -383,6 +383,9 @@ th, td {
     .contact {
         background-color: #031549;
         color: white;
-        width: 100%;
+        width: 630px;
+    }
+    .footer{
+        width: 630px;
     }
 }
