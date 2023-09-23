@@ -344,7 +344,7 @@ th, td {
 /* CSS untuk tampilan desktop */
 @media (max-width: 991px) {
     .home{
-        width: 720px;
+        width: 630px;
     }
     .home-image {
         width: 220px; 
