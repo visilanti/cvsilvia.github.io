@@ -368,7 +368,7 @@ th, td {
         margin-top: 20px;
     }
     table {
-        width: fit-content;
+        width: 630px;
     }
     .main-content{
         margin: 10px 0 10px 10px;
@@ -383,9 +383,6 @@ th, td {
     .contact {
         background-color: #031549;
         color: white;
-        width: 630px;
-    }
-    .footer{
-        width: 630px;
+        width: 100%;
     }
 }
