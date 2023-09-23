@@ -343,9 +343,9 @@ th, td {
 /*end contact sesion info */
 
 /* CSS untuk tampilan desktop */
-@media (max-width: 991px) {
+@media (max-width: 720px) {
     .home{
-        width: 630px;
+        /* width: 630px; */
     }
     .home-image {
         width: 220px; 
@@ -371,7 +371,7 @@ th, td {
         margin-top: 20px;
     }
     table {
-        width: 630px;
+        /* width: 630px; */
     }
     .main-content{
         margin: 70px 0 20px 50px;
