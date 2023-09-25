@@ -385,7 +385,7 @@ th, td {
     .sidebar {
         padding: 20px;
         background-color: #f0f0f0;
-        max-width: 25%;
+        max-width: 26%;
     }
     .wrap2 {
         margin-left: 10px;
@@ -395,6 +395,9 @@ th, td {
     }
     .wrap2 li{
         font-size: 10px;
+    }
+    .box h3{
+        font-size: 15px;
     }
     .col .content {
         padding: 0 0 0 30px;
