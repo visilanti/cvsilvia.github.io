@@ -366,6 +366,7 @@ th, td {
     }
     .home-content{
         margin:10px;
+        max-width: fit-content;
     }
     .home-content h1 {
         font-size: 20px;
