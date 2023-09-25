@@ -337,61 +337,80 @@ th, td {
     transition: 0.3s linear;
 }
 .card:hover p{
-    max-height: 40px;
+    max-height: 0px;
     opacity: 1;
 }
 /*end contact sesion info */
 
 /* CSS untuk tampilan desktop */
 @media (max-width: 720px) {
-    .{
-        max-width: 720px;
-    }
     .home{
-        width: 630px;
+        /* width: 630px; */
     }
     .home-image {
-        width: 220px; 
-        height: 220px;
+        width: 120px; 
+        height: 120px;
+        border: 65px solid white;
+        outline: 10px solid #031549
     }
     .home-image img {
         position: relative;
-        max-width: 200px;
+        max-width: 120px;
         border-radius: 50%;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    .home-sci a {
+        margin-bottom: 10px;
     }
     .home-content{
         margin:10px;
     }
     .home-content h1 {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 1.2;
     }
     .home-content h3 {
-        font-size: 40px;
+        font-size: 20px;
     }
     .home-content p {
         font-size: 10px;
         margin-top: 20px;
     }
-    table {
-        width: 630px;
-    }
     .main-content{
-        margin: 70px 0 20px 50px;
+        margin: 70px 0 20px 20px;
     }
     .sidebar {
         padding: 20px;
         background-color: #f0f0f0;
-    }
-    .sidebar p, li{
-        font-size: 15px;
+        max-width: 22%;
     }
     .wrap2 {
         margin-left: 10px;
+    }
+    .wrap2 h4{
+        font-size: 16px;
+    }
+    .wrap2 li{
+        font-size: 10px;
+    }
+    .col .content {
+        padding: 0 0 0 30px;
+    }
+    .content .box{
+        max-width: 150px;
+    }
+    .container{
+        max-width: 200px;
+        margin: 0;
     }
     .contact {
         background-color: #031549;
         color: white;
         width: 100%;
+    }
+    .contact-info {
+        display: block;
     }
 }
