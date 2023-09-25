@@ -359,7 +359,7 @@ th, td {
         border-radius: 50%;
     }
     .btn{
-        font-size: 10px;
+        font-size: 8px;
     }
     .home-sci a {
         margin-bottom: 10px;
@@ -385,7 +385,7 @@ th, td {
     .sidebar {
         padding: 20px;
         background-color: #f0f0f0;
-        max-width: 22%;
+        max-width: 25%;
     }
     .wrap2 {
         margin-left: 10px;
